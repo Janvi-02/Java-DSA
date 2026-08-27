@@ -37,4 +37,4 @@
 //  - Binary Search
 //
 //  ## What I Understood
-    whenever you see a question with sorted array , try Binary Search.
+    whenever you see a question with sorted array ,try Binary Search.

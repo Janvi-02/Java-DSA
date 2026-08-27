@@ -10,13 +10,13 @@ public class concept {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int[] nums = new int[n];
+        int[] num = new int[n];
         for(int i =0;i<n;i++){
-            nums[i] = sc.nextInt();
+            num[i] = sc.nextInt();
         }
-        Arrays.sort(nums);      // time Complexity: O(n log n)
+        Arrays.sort(num);      // time Complexity: O(n log n)
         int key = sc.nextInt();
-        System.out.println(binarySearch(nums,key));
+        System.out.println(binarySearch(num,key));
 
     }
     public static int binarySearch(int[] arr, int target) {
