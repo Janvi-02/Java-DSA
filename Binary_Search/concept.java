@@ -19,7 +19,7 @@ public class concept {
         System.out.println(binarySearch(num,key));
 
     }
-    public static int binarySearch(int[] arr, int target) {
+    static int binarySearch(int[] arr, int target) {
 
         int low = 0;
         int high = arr.length - 1;
