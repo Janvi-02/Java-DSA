@@ -19,7 +19,6 @@ public class firstAndLastPositionOfElement {
         System.out.println(Arrays.toString(searchRange(arr,8)));
     }
     public static int[] searchRange(int[] nums, int target) {
-
         int[] ans = {-1, -1};
         // check for first occurrence if target first
         ans[0] = search(nums, target, true);
