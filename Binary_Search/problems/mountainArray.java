@@ -70,7 +70,7 @@ public class mountainArray {
                     // this may be the ans, but look at left
                     // this is why end != mid - 1
                     end = mid;
-                } else {
+                } else{
                     // you are in asc part of array
                     start = mid + 1; // because we know that mid+1 element > mid element
                 }
